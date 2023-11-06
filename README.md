@@ -20,7 +20,7 @@ Before using our plugin, no data is returned due to validation errors:
   <img src="https://github.com/oslabs-beta/gql-error-handler/blob/main/assets/before.gif?raw=true">
 </div>
 
-After using our plugin, partial data is returned for all valid fields and a custom error message is added indicating which fields were problematic:
+After using our plugin, partial data is returned for all valid fields and a custom error message is added indicating which fields were invalid:
 
 <div>
   <img src="https://github.com/oslabs-beta/gql-error-handler/blob/main/assets/after.gif?raw=true">
