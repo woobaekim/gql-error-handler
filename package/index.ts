@@ -20,7 +20,7 @@ const partialDataPlugin = {
       mutation: {},
     };
     const customTypes: CustomTypesObject = {};
-    const typeFieldsCache: TypeFieldsCacheObject = {};
+    const typeFieldsCache: TypeFieldsCacheObject = {}; // storing fields and types for error messages
     const scalarTypes: string[] = [
       'ID',
       'ID!',
